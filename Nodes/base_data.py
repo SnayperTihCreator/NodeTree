@@ -28,6 +28,7 @@ class ManagerNode:
     def __init__(self):
         self.groups = []
         self.style = Style()
+        self.handsurf = None
 
     def initStyle(self, path):
         self.style.path_style = path
@@ -48,7 +49,9 @@ class ManagerNode:
         return self._sender_last
 
     def render(self, element):
-        element.handler.render(element, self.style)
+        self.handsurf = pg.Surface(element.rect.size, pg.SRCALPHA)
+        opt = element.delegate.opt(self.handsurf, self.style)
+        return element.delegate.render(opt)
 
 
 @dataclass
