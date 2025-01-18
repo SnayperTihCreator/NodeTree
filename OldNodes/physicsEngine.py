@@ -1,5 +1,5 @@
-from Nodes.base_data import MetaSingtoon, ManagerThread, Signal, MetaSkipData
-from Nodes.base_node import Node2D
+from OldNodes import MetaSingtoon, ManagerThread, Signal, MetaSkipData
+from OldNodes import Node2D
 import pygame as _pg
 from time import sleep
 import pygame.geometry as gm

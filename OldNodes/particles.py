@@ -3,9 +3,9 @@ from random import randint
 
 import pygame as _pg
 
-from Nodes import ImageNode
-from Nodes.base_data import StyleOption, Style
-from Nodes.base_node import DelegateNode2D
+from OldNodes import ImageNode
+from OldNodes import StyleOption, Style
+from OldNodes import DelegateNode2D
 
 
 @dataclass

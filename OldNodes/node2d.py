@@ -1,6 +1,6 @@
-from Nodes.base_node import Node2D, DelegateNode2D
-from Nodes.base_sufr import ColorRect, Image
-from Nodes.base_data import StyleOption, Style
+from OldNodes import Node2D, DelegateNode2D
+from OldNodes import ColorRect, Image
+from OldNodes import StyleOption, Style
 from pyganim import PygAnimation, STOPPED
 import dataclasses as _ds
 from itertools import repeat

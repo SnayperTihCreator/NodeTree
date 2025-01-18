@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourses>
+    <resource type="*.png">
+        ./gg.png
+    </resource>
+</resourses>

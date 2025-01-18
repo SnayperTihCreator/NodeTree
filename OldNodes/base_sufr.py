@@ -1,6 +1,6 @@
 import pygame as _pg
 from collections import UserList
-from Nodes.base_data import MetaSkipData
+from OldNodes import MetaSkipData
 
 
 class Image(_pg.Surface, metaclass=MetaSkipData):
